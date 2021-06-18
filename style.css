@@ -16,7 +16,7 @@ header{
     align-items: center;
 }
 header .logo{
-    color: rosybrown;
+    color: rgb(107, 12, 12);
     font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -26,6 +26,7 @@ header .logo{
 header ul{
     position: relative;
     display: flex;
+    font-weight: 50px;
 }
 header ul li{
     position: relative;
@@ -36,13 +37,13 @@ header ul li a{
     display: inline-block;
     margin: 0 15px;
     padding: 20px;
-    color: seashell;
+    color: rgb(14, 13, 13);
     text-decoration: none;
     
 }
 ul li a:hover{
-    background-color: #19bebe;
-    color: rgb(31, 10, 122);
+    background-color: #7899a1;
+    color: rgb(16, 104, 56);
 }
 section{
     padding: 100px;
@@ -50,18 +51,17 @@ section{
 .banner{
     position: relative;
     min-height: 100vh;
-    background: url(images/banner1.jpg) ;
+    background: url(https://images.unsplash.com/photo-1554189097-ffe88e998a2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80) ;
     background-size: cover;
     background-position: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
     opacity: 1.5;
-    
 }
 .banner h1{
     font-size: 3em;
-    color: #45a049;
+    color: #962971;
     font-weight: 500;
     line-height: 1.5em;
 }
@@ -71,7 +71,7 @@ section{
 }
 .banner h3{
     font-size: 1em;
-    color: rgb(245, 245, 245);
+    color: rgb(73, 17, 17);
     font-weight: 500;
 }
 .btn{
@@ -222,12 +222,12 @@ footer {
   }
   form {
     text-align: center;
-    max-width: 40%;
+    max-width: 20%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 360px;
   }
   footer{
       height: 50%;
@@ -268,11 +268,11 @@ footer {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 20px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 40px;
   }
 .fa:hover {
     opacity: 0.7;
@@ -282,10 +282,10 @@ footer {
     color: white;
   }
 .fa-twitter {
-    background: #55ACEE;
+    background: #174c75;
     color: white;
   }
 .fa-linkedin {
-    background: #55ACEE;
-    color: white;
+    background: #0880db;
+    color: rgb(252, 252, 252);
   }
